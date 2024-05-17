@@ -1,1 +1,131 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folder-stampa{
+  position: relative;
+  color: #FC1313;
+  background-size: cover;
+  background-position: 0.0;
+  background-color: black;
+  height: 600px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+#google{
+  margin-top: 30px;
+}
+#busca{
+  height: 40px;
+  width: 100%;
+  max-width: 270px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  background-color: #585858;
+  bottom: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+img{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+#application{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagem1{
+  background-image: url(/youtube-logo.png);
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+  margin: 20px;
+}
+.imagem2{
+  background-image: url(/blogger-logo.png);
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  margin-top: 1px;
+}
+.imagem3{
+  background-image: url(/facebook-logo-facebook-icon-transparent-free-png.png);
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.imagem4{
+ background-image: url(/instagram.png);
+ background-size: cover;
+ height: 60px;
+ width: 60px;
+}
+#add{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  border: none;
+  font-size: 50px;
+  right: 20px;
+  cursor: pointer;
+  
+}
+#adicionais{
+  right: 80px;
+}
+a{
+  margin: 5px;
+  grid-template-columns: repeat(4, 70px)
+  
+}
+#links{
+  background-color: blue;
+  display: none;
+}
+.material-symbols-outlined{
+  color: #FFFFFF;
+  background-color: #4E4F5A;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#seach{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: none;
+  margin-top: 2px;
+}
+#busca:-webkit-search-results-button{
+  margin-top: 5px;
+  margin-right: 10px;
+  background-color: #eee;
+}
+#confirm{
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  color: #FFFFFF;
+  background-color: #4C4D56;
+}
